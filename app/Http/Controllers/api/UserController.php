@@ -215,7 +215,7 @@ class UserController extends Controller
           );*/
         $fields = json_encode($fields);
         $headers = array(
-            'Authorization: key=' . "AAAAGQIx4lQ:APA91bGhr9saRvX9J5gS6fVm4N2tZN7-nsmoPsVKwsDz_zFlfnzueAxQTgcTYnFkVRLIhce0lPcgYu4VEFfHjOVbt9i-E4Bn0q_BhnYCghNUZrxb9QhdcFr8xyJoOr2FiN0z952hDfvG",
+            'Authorization: key=' . "-",
             'Content-Type: application/json'
         );
         $ch = curl_init();
