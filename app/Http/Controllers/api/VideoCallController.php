@@ -13,11 +13,11 @@ class VideoCallController extends Controller
 {
     public function __construct() {
         // Twilio credentials
-        $this->account_sid = 'AC41fc60e2e296b31cb480b73753164013';
-        $this->auth_token = 'f3bc271dbd27b5450949b38ac4c56fa7';
+        $this->account_sid = '';
+        $this->auth_token = '';
         //the twilio number you purchased
-        $this->from = '+1 240 883 5739';
-        $this->to = '+201011837228';
+        $this->from = '';
+        $this->to = '';
         // Initialize the Programmable Voice API
         $this->client = new Client($this->account_sid, $this->auth_token);
     }
