@@ -1,0 +1,52 @@
+// node_modules\bootstrap\scss\_variables.scss
+
+// Base
+$body-bg: #fff;
+$font-family-sans-serif: 'Roboto', sans-serif;
+$font-size-base: 0.925rem;
+$line-height-base: 1.6;
+$body-color: #334155;
+$enable-caret: false;
+$min-contrast-ratio:   3.5;
+
+// Border color
+$border-color: #eff0f1;
+
+// Navbar
+$navbar-padding-y: 0.65rem;
+
+// Shadows
+$box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.075);
+
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+$input-btn-padding-y: .45rem;
+$input-btn-padding-x: 1rem;
+
+// Inputs
+$input-border-color: $border-color;
+$input-bg-color: #fff;
+
+// Dropdowns
+$dropdown-border-color: $border-color;
+
+// =========================================================
+// Colors
+// =========================================================
+$base-color: #0d6efd;
+
+$red: #ff2828;
+
+// Grays
+$gray-600: #475569;
+$gray-700: #334155;
+$gray-800: #1E293B;
+$gray-900: #0F172A;
+
+// =========================================================
+// Custom variables
+// =========================================================
+$sidebar-width: 255px;
+
+// Shadows
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$box-shadow-custom: 3px 0 10px 0 rgba(183, 192, 206, 0.2);

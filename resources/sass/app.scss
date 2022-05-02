@@ -1,0 +1,65 @@
+@import './variables';
+@import '~bootstrap/scss/functions.scss';
+@import '~bootstrap/scss/variables.scss';
+@import '~bootstrap/scss/mixins.scss';
+
+// ====================================================================
+// Custom CSS
+// ====================================================================
+
+@import './base/index';
+
+// Components
+@import './components/index.scss';
+
+// Pages
+@import './pages/index.scss';
+
+// Overwrites
+
+.table {
+  border-bottom: 1px solid $border-color;
+}
+
+// The awesome Tailwindcss's box shadow makes inputs much beautiful
+.form-control, .dropdown-menu {
+  box-shadow: $shadow-sm;
+}
+
+.table > :not(caption) > * > * {
+  border-bottom: 0;
+}
+
+.shadow-sm {
+  box-shadow: $shadow-sm !important;
+}
+
+.btn-light {
+  box-shadow: $shadow-sm;
+  border-color: $border-color;
+  background-color: #fff;
+  &:hover {
+    border-color: $border-color;
+  }
+}
+
+
+// Select 
+.chosen-container-multi .chosen-choices {
+  border-radius: $border-radius;
+  border-color: $border-color;
+  background-image: none;
+  box-shadow: $shadow-sm;
+  height: 40px;
+  display: flex;
+  align-items: center;
+
+  .search-field {
+    height: 100%;
+  }
+
+  .chosen-search-input {
+    height: 100% !important;
+    padding: $input-btn-padding-y 0.6rem !important;
+  }
+}
